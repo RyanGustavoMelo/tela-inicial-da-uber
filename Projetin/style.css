@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-de-fundo: #242424;
+  --cor-principal: #372d3b;
+  --cor-do-card: #fbf8fc;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: var(--cor-do-card);
+  border-radius: 40px;
+  width: 795px;
+  padding: 24px 56px 24px 56px;
+}
+
+.informacao-partida {
+  color: var(--cor-principal);
+}
+
+.informacao-partida strong {
+  color: #864293;
+}
+
+.informacao-partida h1 {
+  margin-bottom: 4px;
+  font-size: 40px;
+}
+
+.informacao-partida p {
+  font-size: 25px;
+}
+
+.informacao-carro {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 99px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icones {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer input {
+  border-radius: 24px;
+  background-color: #f5edf7;
+  color: var(--cor-principal);
+  width: 516px;
+  text-align: center;
+}
+
+/* // O que fazer
+
+1 - Estilizr o input;
+2 - Finalizar o footer alinhando na vertical;
+3 dar um espaco entre os icones; */
